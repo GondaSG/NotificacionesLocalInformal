@@ -5463,11 +5463,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\proyectos\\NotificationService\\NotificationService\\NotificationService.csproj",
+      "projectUniqueName": "C:\\proyectos\\NotificationService\\NotificationService\\NotificacionesLocalInformal\\NotificationService.csproj",
       "projectName": "NotificationService",
-      "projectPath": "C:\\proyectos\\NotificationService\\NotificationService\\NotificationService.csproj",
+      "projectPath": "C:\\proyectos\\NotificationService\\NotificationService\\NotificacionesLocalInformal\\NotificationService.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\proyectos\\NotificationService\\NotificationService\\obj\\",
+      "outputPath": "C:\\proyectos\\NotificationService\\NotificationService\\NotificacionesLocalInformal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

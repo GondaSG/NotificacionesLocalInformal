@@ -11,7 +11,8 @@ namespace NotificationService.Services
 {
     public class ReadExcelService : ReadExcelImpService
     {
-        private string ruta = "C:/proyectos/NotificationService/NotificationService/Data/ListaClientes.xlsx";
+        //private string ruta = "C:/proyectos/NotificationService/NotificationService/Data/ListaClientes.xlsx";
+        private string ruta = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"data\ListaClientes.xlsx");
         private string vlor = "";
         public ReadExcelService()
         {
@@ -19,8 +20,8 @@ namespace NotificationService.Services
         }
         public IEnumerable<IGrouping<string, ExcelEntity>> getElements()
         {
-            SLDocument sl = new SLDocument(ruta);
-            IEnumerable<IGrouping<string, ExcelEntity>> elementGroup;
+            SLDocument sl = new SLDocument(ruta.Replace("\\bin\\Debug\\netcoreapp3.1",""));
+            IEnumerable <IGrouping<string, ExcelEntity>> elementGroup;
             ExcelEntity excelEntity;
             List<ExcelEntity> excelEntities = new List<ExcelEntity>();
             int iRow = 2;
